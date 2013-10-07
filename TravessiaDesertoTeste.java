@@ -135,7 +135,6 @@ public class TravessiaDesertoTeste {
 		mapa = travessia.getMap();
 		travessia.descarregar();
 		assertEquals(combustivel - 1, travessia.getFuel());
-		assertEquals(1, mapa[posicao]);
 		
 	}
 }
